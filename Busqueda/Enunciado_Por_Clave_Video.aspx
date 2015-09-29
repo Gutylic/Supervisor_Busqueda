@@ -34,7 +34,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-4 visible-xs ip chico">
-                            <asp:Label ID="Localizador_chico" runat="server">Conectado:</asp:Label>
+                            <asp:Label ID="Localizador_chico" runat="server">Desde:</asp:Label>
                             <asp:Label ID="Etiqueta_Localizador_Chico" CssClass ="etiqueta_administrador_chico" runat="server" Text=""></asp:Label>
                         </div>
                         <div class="col-xs-4 hidden-xs ip chico">
