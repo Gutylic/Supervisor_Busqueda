@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Busquedas" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MARA;Initial Catalog=Busquedas;Integrated Security=True" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="BusquedasConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tabla_Ubicacion_De_Los_Ejercicios" Member="Tabla_Ubicacion_De_Los_Ejercicios">
+    <Type Name="Tabla_Ubicacion_De_Los_Ejercicios">
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ubicacion_Respuesta_Imprimible" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Ubicacion_Respuesta_Visible" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Ubicacion_Videos_Y_Explicaciones" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_Ubicacion_De_Los_Ejercicios" Member="Tabla_De_Ejercicios" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_De_Ejercicios" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" Member="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas">
+    <Type Name="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas">
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Busqueda_Profesor" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="Etiqueta_Busqueda_Ano" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="Etiqueta_Busqueda_Colegio" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="Etiqueta_Busqueda_Materia" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="Etiqueta_Busqueda_Tema" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" Member="Tabla_De_Ejercicios" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_De_Ejercicios" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Administradores" Member="Tabla_De_Administradores">
+    <Type Name="Tabla_De_Administradores">
+      <Column Name="ID_Administrador" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Administrador" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Categoria" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ID_Empresa" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Administrador_Bloqueado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IP_Address" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Tabla_De_Empresas_Tabla_De_Administradores" Member="Tabla_De_Empresas" ThisKey="ID_Empresa" OtherKey="ID_Empresa" Type="Tabla_De_Empresas" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Anos" Member="Tabla_De_Anos">
+    <Type Name="Tabla_De_Anos" Id="ID1">
+      <Column Name="ID_Ano" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ano" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Ano" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Colegios" Member="Tabla_De_Colegios">
+    <Type Name="Tabla_De_Colegios" Id="ID3">
+      <Column Name="ID_Colegio" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Colegio" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Colegio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Ejercicios" Member="Tabla_De_Ejercicios">
+    <Type Name="Tabla_De_Ejercicios" Id="ID7">
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Titulo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ID_Tipo_De_Ejercicio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Tipo_De_Institucion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Explicacion_Realizada" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_Ubicacion_De_Los_Ejercicios" Member="Tabla_Ubicacion_De_Los_Ejercicios" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_Ubicacion_De_Los_Ejercicios" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" Member="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_Busqueda_De_Ejercicios_Por_Etiquetas" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_MATH_De_Ejercicios" Member="Tabla_MATH_De_Ejercicios" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_MATH_De_Ejercicios" />
+      <Association Name="Tabla_Tipo_De_Institucion_Tabla_De_Ejercicios" Member="Tabla_Tipo_De_Institucion" ThisKey="ID_Tipo_De_Institucion" OtherKey="ID_Tipo_De_Institucion" Type="Tabla_Tipo_De_Institucion" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Tabla_Tipo_De_Producto_Tabla_De_Ejercicios" Member="Tabla_Tipo_De_Producto" ThisKey="ID_Tipo_De_Ejercicio" OtherKey="ID_Tipo_De_Ejercicio" Type="Tabla_Tipo_De_Producto" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Empresas" Member="Tabla_De_Empresas">
+    <Type Name="Tabla_De_Empresas">
+      <Column Name="ID_Empresa" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Empresa" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Tabla_De_Empresas_Tabla_De_Administradores" Member="Tabla_De_Administradores" ThisKey="ID_Empresa" OtherKey="ID_Empresa" Type="Tabla_De_Administradores" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Materias" Member="Tabla_De_Materias">
+    <Type Name="Tabla_De_Materias" Id="ID4">
+      <Column Name="ID_Materia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Materia" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Materia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Profesores" Member="Tabla_De_Profesores">
+    <Type Name="Tabla_De_Profesores" Id="ID5">
+      <Column Name="ID_Profesor" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Profesor" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Profesor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_De_Temas" Member="Tabla_De_Temas">
+    <Type Name="Tabla_De_Temas" Id="ID6">
+      <Column Name="ID_Tema" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tema" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Etiqueta_Tema" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_MATH_De_Ejercicios" Member="Tabla_MATH_De_Ejercicios">
+    <Type Name="Tabla_MATH_De_Ejercicios" Id="ID2">
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Enunciado_MATH" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Enunciado_Limpio" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Tabla_De_Ejercicios_Tabla_MATH_De_Ejercicios" Member="Tabla_De_Ejercicios" ThisKey="ID_Ejercicio" OtherKey="ID_Ejercicio" Type="Tabla_De_Ejercicios" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_Tipo_De_Institucion" Member="Tabla_Tipo_De_Institucion">
+    <Type Name="Tabla_Tipo_De_Institucion">
+      <Column Name="ID_Tipo_De_Institucion" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tipo_De_Institucion" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Tabla_Tipo_De_Institucion_Tabla_De_Ejercicios" Member="Tabla_De_Ejercicios" ThisKey="ID_Tipo_De_Institucion" OtherKey="ID_Tipo_De_Institucion" Type="Tabla_De_Ejercicios" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tabla_Tipo_De_Producto" Member="Tabla_Tipo_De_Producto">
+    <Type Name="Tabla_Tipo_De_Producto">
+      <Column Name="ID_Tipo_De_Ejercicio" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tipo_De_Producto" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="Tabla_Tipo_De_Producto_Tabla_De_Ejercicios" Member="Tabla_De_Ejercicios" ThisKey="ID_Tipo_De_Ejercicio" OtherKey="ID_Tipo_De_Ejercicio" Type="Tabla_De_Ejercicios" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Administradores" Member="Vista_Administradores">
+    <Type Name="Vista_Administradores">
+      <Column Name="ID_Administrador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Administrador" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Categoria" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Administrador_Bloqueado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IP_Address" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Empresa" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Buscar_Ejercicios" Member="Vista_Buscar_Ejercicios">
+    <Type Name="Vista_Buscar_Ejercicios" Id="ID8">
+      <Column Name="ID_Tipo_De_Ejercicio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ubicacion_Respuesta_Imprimible" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Enunciado_Limpio" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Buscar_Videos" Member="Vista_Buscar_Videos">
+    <Type Name="Vista_Buscar_Videos" Id="ID9">
+      <Column Name="Enunciado_Limpio" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Ubicacion_Videos_Y_Explicaciones" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ID_Ejercicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_Tipo_De_Ejercicio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Buscar_En_Tabla_Anos" Method="Buscar_En_Tabla_Anos">
+    <Parameter Name="Ano" Parameter="ano" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID1" />
+  </Function>
+  <Function Name="dbo.Mostrar_Ejercicios_Por_Profundidad_Del_Enunciado" Method="Mostrar_Ejercicios_Por_Profundidad_Del_Enunciado">
+    <Parameter Name="Enunciado" Parameter="enunciado" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType IdRef="ID2" />
+  </Function>
+  <Function Name="dbo.Buscar_En_Tabla_Colegios" Method="Buscar_En_Tabla_Colegios">
+    <Parameter Name="Colegio" Parameter="colegio" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID3" />
+  </Function>
+  <Function Name="dbo.Buscar_En_Tabla_Materias" Method="Buscar_En_Tabla_Materias">
+    <Parameter Name="Materia" Parameter="materia" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID4" />
+  </Function>
+  <Function Name="dbo.Buscar_En_Tabla_Profesores" Method="Buscar_En_Tabla_Profesores">
+    <Parameter Name="Profesor" Parameter="profesor" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID5" />
+  </Function>
+  <Function Name="dbo.Buscar_En_Tabla_Temas" Method="Buscar_En_Tabla_Temas">
+    <Parameter Name="Tema" Parameter="tema" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID6" />
+  </Function>
+  <Function Name="dbo.Contar_Ejercicios_Por_Ficha_Completa" Method="Contar_Ejercicios_Por_Ficha_Completa">
+    <Parameter Name="Profesor" Parameter="profesor" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Ano" Parameter="ano" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Colegio" Parameter="colegio" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Materia" Parameter="materia" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Tema" Parameter="tema" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Contar_Ejercicios_Por_Institucion" Method="Contar_Ejercicios_Por_Institucion">
+    <Parameter Name="Institucion" Parameter="institucion" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Contar_Ejercicios_Por_Palabras_Claves_Del_Enunciado" Method="Contar_Ejercicios_Por_Palabras_Claves_Del_Enunciado">
+    <Parameter Name="Var1" Parameter="var1" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var2" Parameter="var2" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var3" Parameter="var3" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var4" Parameter="var4" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var5" Parameter="var5" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var6" Parameter="var6" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var7" Parameter="var7" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var8" Parameter="var8" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var9" Parameter="var9" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var10" Parameter="var10" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Contar_Ejercicios_Por_Profundidad_Del_Enunciado" Method="Contar_Ejercicios_Por_Profundidad_Del_Enunciado">
+    <Parameter Name="Enunciado" Parameter="enunciado" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Logueo_Administrador" Method="Logueo_Administrador">
+    <Parameter Name="Administrador" Parameter="administrador" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="Empresa" Parameter="empresa" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="IP_Address" Parameter="iP_Address" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Ingresos" Parameter="ingresos" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Categoria" Parameter="categoria" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="ID_Administrador" Parameter="iD_Administrador" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="ID_Empresa" Parameter="iD_Empresa" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Mostrar_Ejercicios_Por_Ficha_Completa" Method="Mostrar_Ejercicios_Por_Ficha_Completa">
+    <Parameter Name="Profesor" Parameter="profesor" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Ano" Parameter="ano" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Colegio" Parameter="colegio" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Materia" Parameter="materia" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Tema" Parameter="tema" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID7" />
+  </Function>
+  <Function Name="dbo.Mostrar_Ejercicios_Por_Institucion" Method="Mostrar_Ejercicios_Por_Institucion">
+    <Parameter Name="Institucion" Parameter="institucion" Type="System.Int32" DbType="Int" />
+    <ElementType IdRef="ID7" />
+  </Function>
+  <Function Name="dbo.Mostrar_Ejercicios_Por_Palabras_Claves_Del_Enunciado" Method="Mostrar_Ejercicios_Por_Palabras_Claves_Del_Enunciado">
+    <Parameter Name="Var1" Parameter="var1" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var2" Parameter="var2" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var3" Parameter="var3" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var4" Parameter="var4" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var5" Parameter="var5" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var6" Parameter="var6" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var7" Parameter="var7" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var8" Parameter="var8" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var9" Parameter="var9" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var10" Parameter="var10" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType IdRef="ID8" />
+  </Function>
+  <Function Name="dbo.Mostrar_Videos_Por_Palabras_Claves_Del_Enunciado" Method="Mostrar_Videos_Por_Palabras_Claves_Del_Enunciado">
+    <Parameter Name="Var1" Parameter="var1" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var2" Parameter="var2" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var3" Parameter="var3" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var4" Parameter="var4" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var5" Parameter="var5" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var6" Parameter="var6" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var7" Parameter="var7" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var8" Parameter="var8" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var9" Parameter="var9" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var10" Parameter="var10" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType IdRef="ID9" />
+  </Function>
+  <Function Name="dbo.Contar_Videos_Por_Palabras_Claves_Del_Enunciado" Method="Contar_Videos_Por_Palabras_Claves_Del_Enunciado">
+    <Parameter Name="Var1" Parameter="var1" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var2" Parameter="var2" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var3" Parameter="var3" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var4" Parameter="var4" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var5" Parameter="var5" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var6" Parameter="var6" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var7" Parameter="var7" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var8" Parameter="var8" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var9" Parameter="var9" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Var10" Parameter="var10" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Mostrar_Ejercicios_Por_Porcentaje_Del_Enunciado" Method="Mostrar_Ejercicios_Por_Porcentaje_Del_Enunciado">
+    <Parameter Name="Enunciado_1" Parameter="enunciado_1" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Enunciado_2" Parameter="enunciado_2" Type="System.String" DbType="NVarChar(150)" />
+    <ElementType IdRef="ID2" />
+  </Function>
+  <Function Name="dbo.Contar_Ejercicios_Por_Porcentaje_Del_Enunciado" Method="Contar_Ejercicios_Por_Porcentaje_Del_Enunciado">
+    <Parameter Name="Enunciado_1" Parameter="enunciado_1" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Enunciado_2" Parameter="enunciado_2" Type="System.String" DbType="NVarChar(150)" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

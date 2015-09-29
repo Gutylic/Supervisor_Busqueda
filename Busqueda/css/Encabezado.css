@@ -1,0 +1,237 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+  background-color:#e0e0e0;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+.navbar-default {background-color:#f4f4f4;margin-top:50px;border-width:0;z-index:5;}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;font-weight:800;background-color:transparent;}
+.navbar-default .dropdown-menu {background-color:#ffffff;}
+
+
+
+.fondo_encabezado {
+    background:#6D4A70;
+    height:92px;
+}
+
+hr {border-color:#ececec;}
+
+button {
+ outline: 0;
+}
+
+textarea {
+ resize: none;
+ outline: 0; 
+}
+
+span#Administrador_chico {
+    color: white;
+    font-size: 10px;
+}
+
+.col-xs-12.visible-xs.administrador {
+    padding-top: 15px;
+}
+
+.etiqueta_administrador_chico {
+    color: white;
+    font-size: 10px;
+}
+
+.col-xs-4.visible-xs.ip.chico {
+    margin-top: 5px;
+}
+
+.col-xs-4.consola_de_control {
+    text-align: center;
+}
+
+h1.titulo {
+    font-size: 15px;
+    color: white;
+    margin-top: 0px;
+}
+
+div.cerrar_session {
+    text-align: right;
+}
+
+#Volver_A_Consola {
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+span#Hora_chico {
+    font-size: 10px;
+    color: white;
+    }
+
+
+span#Etiqueta_Hora_Chica {
+    color: white;
+    font-size: 10px;
+}
+
+span#Localizador_chico {
+    color: white;
+    font-size: 10px;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+     .col-xs-12.hidden-xs.administrador {
+        padding-top: 10px;
+    }
+
+
+    span#Administrador_grande {
+        font-size: 14px;
+    }
+
+    span#Etiqueta_Administrador_Grande {
+        color: white;
+        font-size: 14px;
+    }
+
+    span#Localizador_Grande {
+        color: white;
+        font-size: 14px;
+    }
+
+    .etiqueta_administrador_chico {
+        font-size: 14px;
+        color: white;
+    }
+
+    .col-xs-4.hidden-xs.ip.chico {
+        padding-top: 7px;
+    }
+
+    span#Etiqueta_Hora_Grande {
+        font-size: 14px;
+        color: white;
+    }
+
+    a#Volver_A_Consola {
+        font-size: 14px;
+    }
+
+    span#Administrador_grande {
+        font-size: 14px;
+        color: white;
+    }
+
+    span#Hora_grande {
+        font-size: 14px;
+        color: white;
+
+    }
+
+    h1.titulo {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .col-xs-4.hidden-xs.ip.chico {
+        padding-top: 7px;
+    }
+
+
+
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    span#Administrador_grande {
+        font-size: 16px;
+    }
+
+    span#Etiqueta_Administrador_Grande {
+        font-size: 16px;
+    }
+
+    span#Localizador_Grande {
+        font-size: 16px;
+    }
+
+    .etiqueta_administrador_chico {
+        font-size: 16px;
+    }
+
+    span#Hora_grande {
+        font-size: 16px;
+   }
+
+    span#Etiqueta_Hora_Grande {
+        font-size: 16px;
+    }
+
+    .col-xs-12.hidden-xs.hora_grande {
+        margin-top: -1px;
+    }
+
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+
+
+span#Administrador_grande {
+    font-size: 18px;
+}
+
+span#Etiqueta_Administrador_Grande {
+    font-size: 18px;
+}
+
+span#Localizador_Grande {
+    font-size: 18px;
+}
+
+.etiqueta_administrador_chico {
+    font-size: 18px;
+}
+
+h1.titulo {
+    font-size: 40px;
+}
+
+a#Volver_A_Consola {
+    font-size: 18px;
+}
+
+.col-xs-4.hidden-xs.ip.chico {
+    padding-top: 7px;
+}
+
+span#Hora_grande {
+    font-size: 18px;
+}
+
+span#Etiqueta_Hora_Grande {
+    font-size: 18px;
+}
+
+.col-xs-4.consola_de_control {
+    margin-top: -10px;
+}
+
+
+}
+

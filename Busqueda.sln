@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busqueda", "Busqueda\Busqueda.csproj", "{70539384-A0BB-4696-AF1D-E59905A6E980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{F5712A7B-2967-47FC-8ED9-67B99FEAA109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{3CB40DEE-C891-4864-9262-4F957B7A0DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70539384-A0BB-4696-AF1D-E59905A6E980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70539384-A0BB-4696-AF1D-E59905A6E980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70539384-A0BB-4696-AF1D-E59905A6E980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70539384-A0BB-4696-AF1D-E59905A6E980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5712A7B-2967-47FC-8ED9-67B99FEAA109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5712A7B-2967-47FC-8ED9-67B99FEAA109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5712A7B-2967-47FC-8ED9-67B99FEAA109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5712A7B-2967-47FC-8ED9-67B99FEAA109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB40DEE-C891-4864-9262-4F957B7A0DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB40DEE-C891-4864-9262-4F957B7A0DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB40DEE-C891-4864-9262-4F957B7A0DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB40DEE-C891-4864-9262-4F957B7A0DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

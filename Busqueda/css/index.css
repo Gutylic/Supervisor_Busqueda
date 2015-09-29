@@ -1,0 +1,180 @@
+﻿body {
+
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%;
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+div.caracteristicas_heading {
+    background: #6D4A70;
+    height:40px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    font-weight:normal;
+}
+
+div.caracteristicas_panel {
+    border:none;
+    box-shadow:0 1px 5px #000;
+    margin-top:10px;
+}
+
+
+.form-control {
+    height:30px;
+    font-size:15px;
+    color:GrayText;
+   
+}
+
+.input-group {
+    margin-top:20px;
+
+}
+
+span.input-group-addon {
+    margin-top:20px;
+    height:30px;
+}
+
+#Boton_Acceso {
+    /*background: #6D4A70;*/
+    width:100%;
+    font-size: 12px;
+}
+
+div.mantener_session {
+    font-size: 11px;
+    font-weight: bold;
+    color: grey;
+    margin-top: -18px;
+    margin-left: 18px;
+}
+
+#Check_Session {
+    margin-top:20px;
+    margin-bottom: 2px;
+    height: 12px;
+
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+    div.caracteristicas_heading {
+        height: 60px;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .form-control {
+
+        height: 35px;
+        font-size: 17px;
+    }
+
+    div.mantener_session {
+        font-size: 13px;  
+        margin-top: 18px;
+        margin-left: -45px;
+}
+
+    #Check_Session {
+        height: 13px;
+    }
+
+    #Boton_Acceso {
+        font-size: 13px;
+}
+
+    div.caracteristicas_panel {
+        margin-top:180px;
+    }
+
+
+
+
+}
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    div.mantener_session {
+        margin-left: -20px;
+    }
+
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+
+    div.caracteristicas_heading {
+    background: #6D4A70;
+    height:92px;
+    color: #fff;
+    font-size: 26px;
+    text-align: left;
+    padding:30px 23px;
+    font-weight:normal;
+}
+
+div.caracteristicas_panel {
+    border:none;
+    box-shadow:0 1px 5px #000;
+    margin-top:180px;
+
+}
+
+
+.form-control {
+    height:46px;
+    font-size:18px;
+    color:GrayText;
+   
+}
+
+.input-group {
+    margin-top:20px;
+
+}
+
+span.input-group-addon {
+    margin-top:20px;
+    height:46px;
+}
+
+#Boton_Acceso {
+    /*background: #6D4A70;*/
+    width:100%;
+    font-size: 18px;
+}
+
+div.mantener_session {
+    font-size: 13px;
+    font-weight:bold;
+    margin:18px -25px 2px;
+    color:grey;
+}
+
+#Check_Session {
+    margin-top:20px;
+    margin-bottom: 2px
+
+}
+}
