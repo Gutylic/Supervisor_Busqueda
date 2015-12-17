@@ -1,0 +1,10 @@
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Busqueda.dll.config
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Busqueda.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Busqueda.pdb
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Datos.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Logica.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Datos.pdb
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\bin\Logica.pdb
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\obj\Release\Busqueda.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\obj\Release\Busqueda.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Busqueda\obj\Release\Busqueda.pdb

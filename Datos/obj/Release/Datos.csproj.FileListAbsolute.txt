@@ -1,0 +1,5 @@
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\bin\Release\Datos.dll.config
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\bin\Release\Datos.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\bin\Release\Datos.pdb
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\obj\Release\Datos.dll
+C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\obj\Release\Datos.pdb

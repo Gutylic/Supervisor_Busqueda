@@ -1,0 +1,153 @@
+﻿div.numero_datalist {
+height: 130px;
+padding-top: 20%;
+ font-size: 9px;
+}
+div.ejercicio_datalist {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.imagen{
+width: 100%;
+}
+
+a#Anterior_Ultimo {
+    font-size: 11px;
+    
+}
+div#Etiqueta_Ejercicio {
+width:50%; 
+text-align:center; 
+font-size: 10px;
+}
+
+div.Etiqueta_Ejercicio {
+font-size: 10px;
+}
+
+
+a#Siguiente_Primero {
+    font-size: 11px;
+}  
+
+div#Centros_Paginados {
+    font-size: 11px;
+    text-align: center;
+}
+
+.row.body {
+margin: 0px;
+width: 100%;
+}
+
+div#Extremos_Paginados {
+    text-align: center;
+}
+
+h4.datos_del_administrador {
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    a#Anterior_Ultimo {
+    font-size: 13px;
+    
+}
+
+a#Siguiente_Primero {
+    font-size: 13px;
+}  
+
+div#Centros_Paginados {
+    font-size: 13px;
+    text-align: center;
+}
+
+h4.datos_del_administrador {
+    font-size: 16px;
+}
+
+div.Etiqueta_Ejercicio {
+font-size: 13px;
+}
+
+div.numero_datalist {
+font-size: 14px;
+    }
+
+
+}
+
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+    div.Etiqueta_Ejercicio {
+font-size: 16px;
+}
+
+    a#Anterior_Ultimo {
+    font-size: 15px;
+    
+}
+
+a#Siguiente_Primero {
+    font-size: 15px;
+}  
+
+div#Centros_Paginados {
+    font-size: 15px;
+    text-align: center;
+}
+
+h4.datos_del_administrador {
+    font-size: 18px;
+}
+
+div.numero_datalist {
+font-size: 17px;
+    }
+
+
+}
+
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+
+
+
+h4.datos_del_administrador {
+    font-size: 20px;
+}
+
+
+    a#Anterior_Ultimo {
+    font-size: 17px;
+    
+}
+
+a#Siguiente_Primero {
+    font-size: 17px;
+}  
+
+div#Centros_Paginados {
+    font-size: 17px;
+    text-align: center;
+}
+
+div.numero_datalist {
+font-size: 20px;
+    }
+}

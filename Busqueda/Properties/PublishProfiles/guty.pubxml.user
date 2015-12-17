@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\busqueda</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Busqueda.dll">
+      <publishTime>12/11/2015 21:43:27</publishTime>
+    </File>
+    <File Include="bin/Datos.dll">
+      <publishTime>12/11/2015 21:43:26</publishTime>
+    </File>
+    <File Include="bin/Logica.dll">
+      <publishTime>12/11/2015 21:43:26</publishTime>
+    </File>
+    <File Include="Buscar_Ejercicio.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/buscar_ejercicio.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/Encabezado.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/enunciado_por_clave_video.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/enunciado_por_fichas.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/enunciado_por_institucion.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/enunciado_por_porcentajes.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/enunciado_por_profundidad.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="css/index.css">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Clave.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Clave_Video.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Fichas.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Institucion.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Porcentaje.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Enunciado_Por_Profundidad.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="images/bg.jpg">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="js/scripts.js">
+      <publishTime>11/05/2015 01:04:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/11/2015 21:43:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

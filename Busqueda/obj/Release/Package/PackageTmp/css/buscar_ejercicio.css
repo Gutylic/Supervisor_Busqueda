@@ -1,0 +1,651 @@
+﻿textarea#TextBox_MATH {
+    height: 250px;
+    width: 100%;
+}
+
+.well {
+    height: 50px;
+}
+
+.pizarra {
+        height:345px
+    }
+
+
+input#Subir_Archivo {
+    font-size: 9px;    
+    Width:100%;
+}
+
+input#Boton_Para_Leer_Archivo {
+    font-size: 9px;
+    margin-top: -6px;
+    Width:100%;
+   }
+
+input#Boton_Borrado_Movil {
+    font-size: 9px;
+    margin-top: -8px;
+    Width:100%;
+}
+
+
+input#TextBox_Profundidad_Movil {
+    width: 100%;
+    padding-left: 7px;
+    font-size: 9px;
+    margin-top: -13px;
+    height:26px
+}
+
+input#Boton_Busqueda_Enunciado_Profundidad_Movil {
+    width: 100%;  
+    font-size: 9px;
+    margin-top: -7px;
+    padding-left:4px;
+}
+
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Porcentaje_Movil{
+    font-size: 9px;
+    width: 100%;
+    margin-top: -7px;
+    padding-left: 7px;
+}
+
+.col-xs-4.profundidad {
+    margin-top: -4px;
+}
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Palabras_Claves_Movil {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 6px;
+    margin-top: -7px;
+}
+
+select#DropDownList_Tipo_De_Institucion {
+    font-size: 9px;
+    width: 100%;
+    height:26px
+
+}
+
+.col-xs-4.tipo_de_institucion {
+    margin-top: -7px;
+}
+
+input#Boton_Busqueda_Por_Institucion_Movil {
+    font-size: 9px;
+    margin-top: -7px;
+}
+
+input#TextBox_Por_Tema {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 6px;
+    height:26px
+}
+
+input#Boton_Busqueda_Por_Tema {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 4px;
+    margin-top: -7px;
+}
+
+input#TextBox_Por_Materia {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 3px;
+    height:26px
+}
+
+input#Boton_Busqueda_Por_Materia {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 2px;    
+    margin-top: -7px;
+    
+}
+
+.col-xs-3.col-sm-2.materia {
+    margin-top: -7px;
+}
+
+
+.col-xs-3.col-sm-2.tema {
+    margin-top: -7px;
+}
+
+input#TextBox_Por_Colegio_Movil {
+    font-size: 9px;
+    width: 100%;
+    height:26px
+}
+
+.col-xs-3.colegio_movil {
+    margin-top: -6px;
+}
+
+input#Boton_Busqueda_Por_Colegio_Movil {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 7px;
+    margin-top: -7px;
+}
+
+input#TextBox_Por_Profesor_Movil {
+    font-size: 9px;
+    width: 100%;    
+    height:26px;
+}
+
+.col-xs-3.profesor_movil {
+    margin-top: -6px;
+}
+
+input#Boton_Busqueda_Por_Profesor_Movil {
+    font-size: 9px;
+    width: 100%;
+    padding-left: 6px;
+    margin-top: -7px;
+    
+}
+
+input#TextBox_Por_Ano_Movil {
+    font-size: 9px;
+    width: 100%;
+    height:26px
+}
+.col-xs-3.ano {
+  margin-top: -6px;
+}
+
+
+input#Boton_Busqueda_Por_Ano_Movil {
+    font-size: 9px;
+    width: 100%;    
+    margin-top: -7px;
+    padding-left: 9px;  
+}
+
+input#Boton_Buscar_x_Ficha_Movil {
+    font-size: 9px;
+    margin-top: -7px;
+    width: 100%;
+    padding-left: 7px;
+}
+
+input#Boton_Buscar_x_Video_Movil {
+    font-size: 9px;
+    margin-top: -7px;
+    width: 100%;
+    padding-left: 6px;
+}
+
+
+.thumbnail {
+    margin-top:-50px;
+}
+
+
+/*-------------------------------------------------------------media query 768 --------------------------------------------------------------*/
+
+
+@media (min-width:768px) {
+
+    .thumbnail {
+        margin-top:-46px;
+    }
+
+        
+
+input#Subir_Archivo {
+    font-size:12px;
+    margin-top:-6px;
+}
+
+.pizarra {
+        height:345px
+    }
+
+
+
+input#Boton_Para_Leer_Archivo {
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+input#source_cancel_button {
+    font-size: 12px;
+    margin-top: -9px;
+    width:100%;
+}
+
+input#source_set_button {
+    font-size: 12px;
+    margin-top: -9px;
+    width:100%;
+}
+
+input#Boton_De_Borrado_Del_TextArea_Math {
+    font-size: 12px;
+    margin-top: -9px;
+    width:100%;
+}
+
+input#TextBox_Profundidad {
+    font-size: 12px;
+    width:100%;
+    height: 31px;
+}
+
+    input#Boton_Busqueda_Enunciado_Profundidad {
+        font-size: 12px;
+        margin-top: -9px;
+        width:100%;
+    }
+
+
+    input#Boton_Busqueda_En_Enunciado_Limpio_Porcentaje {
+    font-size: 12px;
+    margin-top: -9px;
+        width:100%;
+}
+
+.col-xs-4.profundidad {
+    margin-top: -9px;
+}
+
+select#DropDownList_Tipo_De_Institucion {
+    font-size: 12px;
+    width:100%;
+}
+
+.col-xs-4.tipo_de_institucion {
+    margin-top: -9px;
+
+}
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Palabras_Claves {
+    font-size: 12px;
+    margin-top: -9px;
+    width:100%;
+}
+
+input#Boton_Busqueda_Por_Institucion {
+    font-size: 12px;    
+    padding-left: 6px;
+    width:100%;
+
+}
+
+.col-xs-4.buscar_x_institucion.hidden-xs {
+    padding-left: 29px;
+    margin-top: -9px;
+}
+
+input#TextBox_Por_Tema {
+    font-size: 12px;
+    padding-left: 6px;
+    width:100%;
+    height: 31px;
+ 
+}
+
+input#Boton_Busqueda_Por_Tema {
+    font-size: 12px;
+    padding-left: 10px;
+    width:100%;
+}
+
+
+
+input#TextBox_Por_Materia {
+    font-size: 12px;
+    padding-left: 5px;
+    width:100%;
+    height: 31px;
+}
+
+input#Boton_Busqueda_Por_Materia {
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: -7px;
+    width: 100%;
+}
+
+.col-xs-2.materia {
+    margin-top: -7px;
+}
+
+input#TextBox_Por_Colegio {
+    font-size: 12px;
+    padding-left: 5px;
+    width:100%;
+    height: 31px;
+}
+
+.col-sm-2.x_colegio.hidden-xs {
+    margin-top: -7px;
+}
+
+
+input#Boton_Busqueda_Por_Colegio {
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top:-7px;
+    width:100%;
+}
+
+    .col-xs-2.x_colegio {
+        margin-top: -7px;
+    }
+
+    input#TextBox_Por_Profesor {
+    font-size: 12px;
+    padding-left: 3px;
+    width:100%;
+    height: 31px;
+}
+
+.col-sm-2.x_profesor.hidden-xs {
+    margin-top: -7px;
+}
+
+input#Boton_Busqueda_Por_Profesor {
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: -7px;
+    width:100%;
+}
+
+input#TextBox_Por_Ano {
+    font-size: 12px;
+    padding-left: 7px;
+    width:100%;
+    height: 31px;
+}
+
+.col-sm-2.ano {
+    margin-top: -7px;
+}
+
+input#Boton_Busqueda_Por_Ano {
+    font-size: 12px;
+    padding-left: 7px;
+    width:100%;
+    margin-top: -7px;
+}
+
+input#Boton_Buscar_x_Ficha {
+    font-size: 12px;    
+    width:100%;
+    margin-top: -7px;
+    padding-left: 4px;
+}
+
+input#Boton_Buscar_x_Video {
+    font-size: 12px;
+    margin-top: -7px;
+    width: 100%;
+    padding-left: 6px;
+}
+    
+}
+
+
+/*-------------------------------------------------------------media query 992 --------------------------------------------------------------*/
+
+
+@media (min-width:992px) {
+
+div#editorContainer {
+    height: 300px;
+}
+
+
+
+.thumbnail.TextBox_MATH {
+    margin-top: -45px;
+}
+
+.thumbnail.editorContainer {
+    margin-top: 0px;
+}
+
+.well {
+    height: 65px;
+}
+.pizarra {
+        height:350px
+    }
+input#Subir_Archivo {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input#Boton_Para_Leer_Archivo {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#source_cancel_button {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#source_set_button {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#Boton_De_Borrado_Del_TextArea_Math {
+     font-size: 14px;
+    margin-top: -5px;
+}
+
+
+input#TextBox_Profundidad {
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Enunciado_Profundidad {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Porcentaje {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Palabras_Claves {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+select#DropDownList_Tipo_De_Institucion {
+    font-size: 14px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+input#Boton_Busqueda_Por_Institucion {
+    font-size: 14px;
+    margin-top: 3px;
+
+}
+
+input#TextBox_Por_Tema {
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Por_Tema {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#TextBox_Por_Materia {
+     height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Por_Materia {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#TextBox_Por_Colegio {
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Por_Colegio {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#TextBox_Por_Profesor {
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Por_Profesor {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#TextBox_Por_Ano {
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#Boton_Busqueda_Por_Ano {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+input#Boton_Buscar_x_Ficha {
+     font-size: 14px;
+    margin-top: -5px;
+}
+
+input#Boton_Buscar_x_Video {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+
+}
+
+/*-------------------------------------------------------------media query 1200 --------------------------------------------------------------*/
+
+
+@media (min-width:1200px) {
+
+
+input#Subir_Archivo {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.pizarra {
+        height:355px
+    }
+
+input#Boton_Para_Leer_Archivo {
+    font-size: 16px;
+}
+
+input#source_cancel_button {
+    font-size: 16px;
+}
+
+input#source_set_button {
+    font-size: 16px;
+}
+
+input#Boton_De_Borrado_Del_TextArea_Math {
+    font-size: 16px;
+}
+
+input#Boton_Busqueda_Enunciado_Profundidad {
+    font-size: 16px;
+}
+
+    input#TextBox_Profundidad {
+        height: 32px;
+    }
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Porcentaje {
+    font-size: 16px;
+}
+
+input#Boton_Busqueda_En_Enunciado_Limpio_Palabras_Claves {
+    font-size: 16px;
+}
+
+select#DropDownList_Tipo_De_Institucion {
+    font-size: 16px;
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Institucion {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+input#TextBox_Por_Tema {
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Tema {
+    font-size: 16px;
+}
+
+input#TextBox_Por_Materia {
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Materia {
+    font-size: 16px;
+}
+
+input#TextBox_Por_Colegio {
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Colegio {
+    font-size: 16px;
+}
+
+input#TextBox_Por_Profesor {
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Profesor {
+    font-size: 16px;
+}
+
+input#TextBox_Por_Ano {
+    height: 32px;
+}
+
+input#Boton_Busqueda_Por_Ano {
+    font-size: 16px;
+}
+
+input#Boton_Buscar_x_Ficha {
+    font-size: 16px;
+}
+
+input#Boton_Buscar_x_Video {
+    font-size: 16px;
+}
+
+
+}
