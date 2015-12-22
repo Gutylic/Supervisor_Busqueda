@@ -42,10 +42,10 @@ namespace Busqueda
 
         public void Cargar_Variables_De_URL(string Enunciado_1, string Enunciado_2)
         {
-            Enunciado_1 = Enunciado_1.Substring(1, Enunciado_1.Length - 2);
-            Enunciado_1 = '"' + Enunciado_1.Replace('"', '◄') + '"';
-            Enunciado_2 = Enunciado_2.Substring(1, Enunciado_2.Length - 2);
-            Enunciado_2 = '"' + Enunciado_2.Replace('"', '◄') + '"';
+            //Enunciado_1 = Enunciado_1.Substring(1, Enunciado_1.Length - 2);
+            //Enunciado_1 = '"' + Enunciado_1.Replace('"', '◄') + '"';
+            //Enunciado_2 = Enunciado_2.Substring(1, Enunciado_2.Length - 2);
+            //Enunciado_2 = '"' + Enunciado_2.Replace('"', '◄') + '"';
             ViewState["Var_1"] = Enunciado_1; // recupera desde el URL el Enunciado1
             ViewState["Var_2"] = Enunciado_2; // recupera desde el URL el Enunciado1
         }

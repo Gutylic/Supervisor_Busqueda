@@ -59,79 +59,79 @@ namespace Busqueda
             switch (str.Length)
             {
                 case 1:
-                    ViewState["Enunciado_1"] = str[0];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"";;
                     break;
                 case 2:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";  
                     break;
                 case 3:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
                     break;
                 case 4:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
                     break;
                 case 5:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
                     break;
                 case 6:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
-                    ViewState["Enunciado_6"] = str[5];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
+                    ViewState["Enunciado_6"] = "\"" + str[5] + "*\"";
                     break;
                 case 7:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
-                    ViewState["Enunciado_6"] = str[5];
-                    ViewState["Enunciado_7"] = str[6];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
+                    ViewState["Enunciado_6"] = "\"" + str[5] + "*\"";
+                    ViewState["Enunciado_7"] = "\"" + str[6] + "*\"";
                     break;
                 case 8:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
-                    ViewState["Enunciado_6"] = str[5];
-                    ViewState["Enunciado_7"] = str[6];
-                    ViewState["Enunciado_8"] = str[7];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"";
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
+                    ViewState["Enunciado_6"] = "\"" + str[5] + "*\"";
+                    ViewState["Enunciado_7"] = "\"" + str[6] + "*\"";
+                    ViewState["Enunciado_8"] = "\"" + str[7] + "*\"";
                     break;
                 case 9:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
-                    ViewState["Enunciado_6"] = str[5];
-                    ViewState["Enunciado_7"] = str[6];
-                    ViewState["Enunciado_8"] = str[7];
-                    ViewState["Enunciado_9"] = str[8];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
+                    ViewState["Enunciado_6"] = "\"" + str[5] + "*\"";
+                    ViewState["Enunciado_7"] = "\"" + str[6] + "*\"";
+                    ViewState["Enunciado_8"] = "\"" + str[7] + "*\"";
+                    ViewState["Enunciado_9"] = "\"" + str[8] + "*\"";
                     break;
                 case 10:
-                    ViewState["Enunciado_1"] = str[0];
-                    ViewState["Enunciado_2"] = str[1];
-                    ViewState["Enunciado_3"] = str[2];
-                    ViewState["Enunciado_4"] = str[3];
-                    ViewState["Enunciado_5"] = str[4];
-                    ViewState["Enunciado_6"] = str[5];
-                    ViewState["Enunciado_7"] = str[6];
-                    ViewState["Enunciado_8"] = str[7];
-                    ViewState["Enunciado_9"] = str[8];
-                    ViewState["Enunciado_10"] = str[9];
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"";
+                    ViewState["Enunciado_2"] = "\"" + str[1] + "*\"";
+                    ViewState["Enunciado_3"] = "\"" + str[2] + "*\"";
+                    ViewState["Enunciado_4"] = "\"" + str[3] + "*\"";
+                    ViewState["Enunciado_5"] = "\"" + str[4] + "*\"";
+                    ViewState["Enunciado_6"] = "\"" + str[5] + "*\"";
+                    ViewState["Enunciado_7"] = "\"" + str[6] + "*\"";
+                    ViewState["Enunciado_8"] = "\"" + str[7] + "*\"";
+                    ViewState["Enunciado_9"] = "\"" + str[8] + "*\"";
+                    ViewState["Enunciado_10"] = "\"" + str[9] + "*\"";
                     break;
 
             }
