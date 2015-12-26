@@ -33,3 +33,10 @@ C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Logica\bin\Debug\Datos.pdb
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Logica\obj\Debug\Logica.dll
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Logica\obj\Debug\Logica.pdb
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Logica.dll
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Logica.pdb
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Datos.dll
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Datos.pdb
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.dll
+C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.pdb

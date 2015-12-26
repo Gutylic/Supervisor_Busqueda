@@ -59,7 +59,7 @@ namespace Busqueda
             switch (str.Length)
             {
                 case 1:
-                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"";;
+                    ViewState["Enunciado_1"] = "\"" + str[0] + "*\"";
                     break;
                 case 2:
                     ViewState["Enunciado_1"] = "\"" + str[0] + "*\"" ;
