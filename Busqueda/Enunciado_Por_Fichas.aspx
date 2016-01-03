@@ -12,6 +12,10 @@
 <link href="css/enunciado_por_fichas.css" rel="stylesheet" />
 <link href="css/Encabezado.css" rel="stylesheet" />
     <title>Buscar por Ficha</title>
+
+<link rel="shortcut icon" type="image/png" href="favicon.icon" />
+<link rel="apple-touch-icon" href="img/touch-icon.png"/>
+
 </head>
 <body>
     <form id="form1" runat="server">
