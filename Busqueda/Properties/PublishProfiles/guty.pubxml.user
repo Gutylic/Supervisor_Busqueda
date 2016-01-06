@@ -6,80 +6,80 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\Busquedas</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Busqueda.dll">
-      <publishTime>12/17/2015 16:23:54</publishTime>
+      <publishTime>01/05/2016 21:35:26</publishTime>
     </File>
     <File Include="bin/Datos.dll">
-      <publishTime>12/17/2015 16:23:53</publishTime>
+      <publishTime>01/05/2016 21:35:25</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>12/17/2015 16:23:53</publishTime>
+      <publishTime>01/05/2016 21:35:26</publishTime>
     </File>
     <File Include="Buscar_Ejercicio.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/buscar_ejercicio.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/Encabezado.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/enunciado_por_clave_video.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/enunciado_por_fichas.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/enunciado_por_institucion.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/enunciado_por_porcentajes.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/enunciado_por_profundidad.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="css/index.css">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="Enunciado_Por_Clave.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="Enunciado_Por_Clave_Video.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="Enunciado_Por_Fichas.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="Enunciado_Por_Institucion.aspx">
-      <publishTime>12/17/2015 13:47:45</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="Enunciado_Por_Porcentaje.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:44</publishTime>
     </File>
     <File Include="Enunciado_Por_Profundidad.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="images/bg.jpg">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="js/scripts.js">
-      <publishTime>11/05/2015 01:04:34</publishTime>
+      <publishTime>01/05/2016 21:25:45</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/11/2015 21:43:27</publishTime>
+      <publishTime>01/05/2016 21:35:26</publishTime>
     </File>
   </ItemGroup>
 </Project>

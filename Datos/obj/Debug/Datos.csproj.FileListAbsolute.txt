@@ -28,3 +28,9 @@ C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\bin\Debug\Datos.pdb
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\obj\Debug\Datos.dll
 C:\Users\Gustavo\Desktop\Supervisor_Busqueda\Datos\obj\Debug\Datos.pdb
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Debug\Datos.dll.config
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Debug\Datos.dll
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Debug\Datos.pdb
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Debug\Datos.dll
+C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Debug\Datos.pdb
