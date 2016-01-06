@@ -100,17 +100,20 @@ namespace Logica
             Enunciado = Enunciado.Remove(Enunciado.Length - 7, 7).ToLower(); // sacar los de atras y poner en minusculas
             Enunciado = Enunciado.Replace("&#x000A0;", "");
             Enunciado = Enunciado.Replace("<mo></mo>", "");
-            Enunciado = Enunciado.Replace("&#225;", "a");
-            Enunciado = Enunciado.Replace("&#233;", "e");
-            Enunciado = Enunciado.Replace("&#237;", "i");
-            Enunciado = Enunciado.Replace("&#243;", "o");
-            Enunciado = Enunciado.Replace("&#250;", "u");
-            Enunciado = Enunciado.Replace("&#241;", "n");
-            Enunciado = Enunciado.Replace("&#193;", "a");
-            Enunciado = Enunciado.Replace("&#201;", "e");
-            Enunciado = Enunciado.Replace("&#205;", "i");
-            Enunciado = Enunciado.Replace("&#211;", "o");
-            Enunciado = Enunciado.Replace("&#218;", "u");
+            Enunciado = Enunciado.Replace("&#x000e1;", "a");
+            Enunciado = Enunciado.Replace("&#x000e9;", "e");
+            Enunciado = Enunciado.Replace("&#x000ed;", "i");
+            Enunciado = Enunciado.Replace("&#x000f3;", "o");
+            Enunciado = Enunciado.Replace("&#x000fa;", "u");
+            Enunciado = Enunciado.Replace("&#x000f1;", "n");
+            Enunciado = Enunciado.Replace("&#x000d1;", "n");
+            Enunciado = Enunciado.Replace("&#x000c1;", "a");
+            Enunciado = Enunciado.Replace("&#x000c9;", "e");
+            Enunciado = Enunciado.Replace("&#x000cd;", "i");
+            Enunciado = Enunciado.Replace("&#x000d3;", "o");
+            Enunciado = Enunciado.Replace("&#x000dc;", "u");
+            Enunciado = Enunciado.Replace("&#x000da;", "u");
+            Enunciado = Enunciado.Replace("&#x000fc;", "u");
          
             
             return Enunciado = Enunciado.Replace("&#209;", "n");
@@ -166,7 +169,7 @@ namespace Logica
             Linea = Linea.Replace("&#x000f3;", "o");
             Linea = Linea.Replace("&#x000fa;", "u");
             Linea = Linea.Replace("&#x000f1;", "n");
-
+            Linea = Linea.Replace("&#x000d1;", "n");
             Linea = Linea.Replace("&#x000c1;", "a");
             Linea = Linea.Replace("&#x000c9;", "e");
             Linea = Linea.Replace("&#x000cd;", "i");
