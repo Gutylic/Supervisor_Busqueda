@@ -138,7 +138,7 @@ namespace Busqueda
         protected void Boton_Busqueda_En_Enunciado_Limpio_Palabras_Claves_Click(object sender, EventArgs e)
         {
             Session["Contenido_Wiris"] = Contenido_Wiris.Value;
-            if (TextBox_MATH.Text == string.Empty)
+            if (TextBox_MATH.Text == string.Empty || TextBox_MATH.Text.StartsWith("<math"))
             {
                 return;
             }

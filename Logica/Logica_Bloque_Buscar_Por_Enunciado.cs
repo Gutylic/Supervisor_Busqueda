@@ -98,8 +98,20 @@ namespace Logica
 
             Enunciado = Enunciado.Remove(0, 49); // quitar los cararcteres de adelante
             Enunciado = Enunciado.Remove(Enunciado.Length - 7, 7).ToLower(); // sacar los de atras y poner en minusculas
-            Enunciado = Enunciado.Replace("&#x000A0;", " ");
-            Enunciado = Enunciado.Replace("<mo></mo>", "");
+
+            Enunciado = Enunciado.Replace("&#x000a1;", "¡");
+            Enunciado = Enunciado.Replace("&#x000bf;", "¿");
+            Enunciado = Enunciado.Replace("&quot;", "\"");
+            Enunciado = Enunciado.Replace("&#x000b4;", "´");
+            Enunciado = Enunciado.Replace("&amp;", "&");
+
+
+
+            Enunciado = Enunciado.Replace("&#x000bf;", "¿");
+
+
+
+
             Enunciado = Enunciado.Replace("&#x000e1;", "a");
             Enunciado = Enunciado.Replace("&#x000e9;", "e");
             Enunciado = Enunciado.Replace("&#x000ed;", "i");
@@ -114,8 +126,9 @@ namespace Logica
             Enunciado = Enunciado.Replace("&#x000dc;", "u");
             Enunciado = Enunciado.Replace("&#x000da;", "u");
             Enunciado = Enunciado.Replace("&#x000fc;", "u");
-
-            Enunciado = Enunciado.Replace("&#x000bf;", "¿");
+            Enunciado = Enunciado.Replace("A", "a");
+            Enunciado = Enunciado.Replace("&#x000a0;", " ");
+            Enunciado = Enunciado.Replace("<mo></mo>", "");
             return Enunciado = Enunciado.Replace("&#209;", "n");
         }
 
@@ -149,8 +162,6 @@ namespace Logica
             }
             // pongo todos los terminos en minusculas y saco los acentos
             Linea = Linea.ToLower();
-            Linea = Linea.Replace("&#x000a0;", " ");
-            Linea = Linea.Replace("<mo></mo>", "");
             Linea = Linea.Replace("&#225;", "a");
             Linea = Linea.Replace("&#233;", "e");
             Linea = Linea.Replace("&#237;", "i");
@@ -163,6 +174,14 @@ namespace Logica
             Linea = Linea.Replace("&#211;", "o");
             Linea = Linea.Replace("&#218;", "u");
             Linea = Linea.Replace("&#209;", "n");
+            Linea = Linea.Replace("A", "a");
+            Linea = Linea.Replace("&#x000a0;", " ");
+            Linea = Linea.Replace("&#x000a1;", "¡");
+            Linea = Linea.Replace("&#x000bf;", "¿");
+            Linea = Linea.Replace("&quot;", "\"");
+            Linea = Linea.Replace("&#x000B4;", "´");
+            Linea = Linea.Replace("&amp;", "&");
+            Linea = Linea.Replace("<mo></mo>", "");
             Linea = Linea.Replace("&#x000e1;", "a");
             Linea = Linea.Replace("&#x000e9;", "e");
             Linea = Linea.Replace("&#x000ed;", "i");
@@ -170,6 +189,7 @@ namespace Logica
             Linea = Linea.Replace("&#x000fa;", "u");
             Linea = Linea.Replace("&#x000f1;", "n");
             Linea = Linea.Replace("&#x000d1;", "n");
+            Linea = Linea.Replace("&#x000bf;", "¿");
             Linea = Linea.Replace("&#x000c1;", "a");
             Linea = Linea.Replace("&#x000c9;", "e");
             Linea = Linea.Replace("&#x000cd;", "i");
@@ -177,8 +197,6 @@ namespace Logica
             Linea = Linea.Replace("&#x000dc;", "u");
             Linea = Linea.Replace("&#x000da;", "u");
             Linea = Linea.Replace("&#x000fc;", "u");
-            Linea = Linea.Replace("&#x000bf;", "¿");
-
             Linea = Linea.Trim(); // elimino los espacios delante y detras de la variable creada
             return Linea; // variable final limpia de wiris
 
