@@ -5,11 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="generator" content="Bootply" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <link href="css/enunciado_por_profundidad.css" rel="stylesheet" />
+    <link href="css/enunciado_por_fichas.css" rel="stylesheet"/>
 <link href="css/Encabezado.css" rel="stylesheet" />
     <title>Buscar por Profundidad</title>
 

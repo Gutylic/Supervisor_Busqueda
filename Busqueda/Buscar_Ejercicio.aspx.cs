@@ -455,8 +455,8 @@ namespace Busqueda
 
         protected void Boton_Buscar_x_VIdeo_Click(object sender, EventArgs e)
         {
-                  
-            if (TextBox_MATH.Text == string.Empty)
+          
+            if (TextBox_MATH.Text == string.Empty || TextBox_MATH.Text.StartsWith("<math"))
             {
                 return;
             }
