@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <link href="css/bootstrap.min.css" rel="stylesheet"/>
 <link href="css/enunciado_por_clave.css" rel="stylesheet"/>
+    <link href="css/enunciado_por_fichas.css" rel="stylesheet"/>
 <link href="css/Encabezado.css" rel="stylesheet" />
     <title>Buscar por Palabra Clave</title>
 
