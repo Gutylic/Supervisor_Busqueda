@@ -47,3 +47,10 @@ C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Datos.pdb
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.dll
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Logica.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Datos.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Debug\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Debug\Logica.pdb

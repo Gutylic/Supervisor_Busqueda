@@ -19,3 +19,10 @@ C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Release\Datos.p
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.dll
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Release\Logica.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Release\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Release\Datos.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\bin\Release\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Logica\obj\Release\Logica.pdb

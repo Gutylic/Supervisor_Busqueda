@@ -13,3 +13,8 @@ C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Release\Datos.dl
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Release\Datos.pdb
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Release\Datos.dll
 C:\Users\Gustavo\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Release\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Release\Datos.dll.config
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Release\Datos.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Datos\bin\Release\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Release\Datos.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Datos\obj\Release\Datos.pdb

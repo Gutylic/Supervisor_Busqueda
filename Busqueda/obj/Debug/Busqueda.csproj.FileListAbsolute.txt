@@ -78,3 +78,13 @@ C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Logica.pdb
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.csprojResolveAssemblyReference.cache
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.dll
 C:\Users\Mara\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Busqueda.dll.config
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Busqueda.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Busqueda.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Datos.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Logica.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Datos.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\bin\Logica.pdb
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.csprojResolveAssemblyReference.cache
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.dll
+C:\Users\Licen\Documents\GitHub\Supervisor_Busqueda\Busqueda\obj\Debug\Busqueda.pdb
