@@ -10,13 +10,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Busqueda.dll">
-      <publishTime>03/16/2016 15:06:52</publishTime>
+      <publishTime>03/17/2016 02:18:16</publishTime>
     </File>
     <File Include="bin/Datos.dll">
       <publishTime>03/16/2016 15:06:52</publishTime>
     </File>
     <File Include="bin/Logica.dll">
-      <publishTime>03/16/2016 15:06:52</publishTime>
+      <publishTime>03/17/2016 02:18:16</publishTime>
     </File>
     <File Include="Buscar_Ejercicio.aspx">
       <publishTime>03/16/2016 14:03:35</publishTime>

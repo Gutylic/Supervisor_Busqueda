@@ -101,7 +101,7 @@ namespace Logica
 
             Enunciado = Enunciado.Replace("&#x000a1;", "¡");
             Enunciado = Enunciado.Replace("&#x000bf;", "¿");
-            Enunciado = Enunciado.Replace("&quot;", "\"");
+            Enunciado = Enunciado.Replace("&quot;", "´´");
             Enunciado = Enunciado.Replace("&#x000b4;", "´");
             Enunciado = Enunciado.Replace("&amp;", "&");
 
@@ -180,7 +180,7 @@ namespace Logica
             Linea = Linea.Replace("&#x000a0;", " ");
             Linea = Linea.Replace("&#x000a1;", "¡");
             Linea = Linea.Replace("&#x000bf;", "¿");
-            Linea = Linea.Replace("&quot;", "\"");
+            Linea = Linea.Replace("&quot;", "´´");
             Linea = Linea.Replace("&#x000b4;", "´");
             Linea = Linea.Replace("&#x000ba;", "º");
             Linea = Linea.Replace("&#x02009;", "");
